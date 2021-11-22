@@ -47,19 +47,19 @@ public class Programador {
 
 	}
 
-	
+
 	//No lo utilizo
 	public Programador darMenor() {
 		return null;
 	}
-	
+
 	//No lo utilizo
 	public Programador darMayor() {
 		return null;
 	}
-	
-	
-	
+
+
+
 	public int darAltura() {
 		if(esHoja()) {
 			return 1;
@@ -80,22 +80,22 @@ public class Programador {
 	public int darPeso() {
 		return 0;
 	}
-	
+
 	//No lo utilizo
 	public void insertar(Programador p) {
 
 	}
-	
+
 	//No lo utilizo
 	public Programador buscar(String name) {
 		return null;
 	}
-	
+
 	//No lo utilizo
 	public Programador eliminar(String name) {
 		return null;
 	}
-	
+
 
 	public Programador getIzq() {
 		return izq;
@@ -116,7 +116,7 @@ public class Programador {
 	public String toString() {
 		return "Nombre: "+nombre+"\n";
 	}
-	
+
 	//Le puse un retorno Sting porque si lo ponía como void me veía obligado a imprimir desde una clase del model, lo cual es una mala practica 
 	public String inorden(Programador p) {
 		String list = "";

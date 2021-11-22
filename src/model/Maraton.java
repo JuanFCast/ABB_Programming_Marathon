@@ -54,7 +54,7 @@ public class Maraton {
 	public void eliminarProgramador(String name) {
 
 	}
-	
+
 	//No lo utilizo
 	public Programador buscarProgramador(String name) {
 		return null;

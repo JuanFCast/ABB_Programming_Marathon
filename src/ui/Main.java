@@ -7,6 +7,7 @@ public class Main {
 
 	private static Maraton maraton;
 
+	
 	public static void main(String[] args) {
 
 		maraton = new Maraton();
@@ -18,6 +19,7 @@ public class Main {
 			maraton.agregarProgramador("Juan Felipe Chaves", "8654447845", "Carrera 84", "jf.cb@gmail.com");
 			String[] list = maraton.darListaProgramadores();
 			System.out.println("Los programadores registrados son: \n"+list[0]+"\n"+"La altura del arborl es: "+list[1]);
+			
 		} catch (ProgramadorRepetidoException e) {
 			System.out.println("No pueden haber programadores repetidos");
 		}
